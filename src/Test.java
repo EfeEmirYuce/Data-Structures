@@ -7,22 +7,22 @@ import Tree.*;
 
 public class Test {
     public static void main(String[] args) {
-        Graph<Integer> myGraph= new Graph<Integer>();
-        myGraph.addVertex(1);
-        myGraph.addVertex(2);
-        myGraph.addVertex(3);
-        myGraph.addVertex(4);
-        myGraph.addVertex(5);
-        myGraph.addEdge(1,3, 2);
-        myGraph.addEdge(1,5,4);
-        myGraph.addEdge(3,4,6);
-        myGraph.addEdge(3,5,3);
-        myGraph.addEdge(4,5,7);
-        myGraph.addEdge(2,3,1);
-        myGraph.display();
-        System.out.println(myGraph.checkIfTwoEdgesExistBetween(1,5));
-        System.out.println(myGraph.totalWeight());
-        System.out.println(myGraph.topologicalOrderStartingPoint());
+//        Graph<Integer> myGraph= new Graph<Integer>();
+//        myGraph.addVertex(1);
+//        myGraph.addVertex(2);
+//        myGraph.addVertex(3);
+//        myGraph.addVertex(4);
+//        myGraph.addVertex(5);
+//        myGraph.addEdge(1,3, 2);
+//        myGraph.addEdge(1,5,4);
+//        myGraph.addEdge(3,4,6);
+//        myGraph.addEdge(3,5,3);
+//        myGraph.addEdge(4,5,7);
+//        myGraph.addEdge(2,3,1);
+//        myGraph.display();
+//        System.out.println(myGraph.checkIfTwoEdgesExistBetween(1,5));
+//        System.out.println(myGraph.totalWeight());
+//        System.out.println(myGraph.topologicalOrderStartingPoint());
 
 //        BinarySearchTree<Integer> myTree = new BinarySearchTree<>();
 //        myTree.insert(10);
